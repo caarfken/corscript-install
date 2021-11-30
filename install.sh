@@ -7,3 +7,4 @@ echo completed
 echo If script fails here, install unzip
 unzip main.zip -y -d ~/.corscript/bin
 echo alias corscript=\"python3 ~/.corscript/bin/corscript-main/corscript.py\" >> ~/.bashrc
+rm main.zip
